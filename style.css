@@ -4,7 +4,7 @@ html, body {
 }
 
 .header {
-	background-color:#333333;
+	background-color:#2B92B9;
 }
 
 .container {
@@ -15,9 +15,9 @@ html, body {
 
 .jumbotron {
   height: 800px;
-  background: url("https://static.pexels.com/photos/6471/woman-hand-smartphone-desk-large.jpg");
+  background: url("http://takemeafk.com/wp-content/uploads/2014/06/AFK_9772-1920x1280.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: contain;
   background-size: cover;
 }
 
@@ -29,9 +29,20 @@ html, body {
 .nav li {
   color: #fff;
   font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 12px;
+  font-weight: 100;
+  font-size: 30px;
   display: inline;
+  margin-left: -100px;
+  padding-right: 100px;
+}
+
+#left {
+  color: white;
+  display: inline;
+  padding-left: 340px;
+  font-family: 'Lora', serif;
+  font-weight: 500;
+  font-size: 30px;
 }
 
 .main {
@@ -42,40 +53,37 @@ html, body {
 
 .main p {
   font-family: 'Raleway', sans-serif;
+  color: white;
+  padding-bottom: 20px;
+}
+
+#top {
+  font-family: 'Neuton', sans-serif, bold;
+  color: white;
 }
 
 .main h1 {
-  color: #333;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 70px;
+  color: #eeeeee;
+  font-family: 'Neuton', sans-serif;
+  font-weight: 800;
+  font-size: 100px;
+  text-shadow: 4px 4px black;
   margin-top: 0;
   margin-bottom: 80px;
   text-transform: uppercase;
+  padding-top: 35px;
 }
 
 .button {
-	background-color: #333;
-  color: #fff;
+	background-color: #eeeeee;
+  color: black;
   font-family: 'Raleway' , sans-serif;
-  font-weight: 600;
   font-size: 18px;
   letter-spacing: 1.3px;
   padding: 16px 40px;
   text-decoration: none;
   text-transform: uppercase;
-}
-
-.btn-main {
-  background-color: #333;
-  color: #fff;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  letter-spacing: 1.3px;
-  padding: 16px 40px;
-  text-decoration: none;
-  text-transform: uppercase;
+  border: 1px solid #888888;
 }
 
 .supporting {
